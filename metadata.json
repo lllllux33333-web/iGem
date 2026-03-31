@@ -1,0 +1,5 @@
+{
+  "name": "igem",
+  "description": "",
+  "requestFramePermissions": ["camera"]
+}
