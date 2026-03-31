@@ -37,21 +37,21 @@ export default function HomeScreen({ onNavigate }: { onNavigate: (s: string) => 
         </div>
         <div className="flex gap-4 overflow-x-auto pb-4 hide-scrollbar -mx-6 px-6">
           <BrandCard 
-            image="/images/brand-pearl .png" 
+            image="./images/brand-pearl .png" 
             title="Pearl Artisan Studio" 
             location="China - Guangzhou" 
             description="Traditional pearl craftsmanship"
             rating="4.9" 
           />
           <BrandCard 
-            image="/images/brand-silver.jpeg" 
+            image="./images/brand-silver.jpeg" 
             title="Silver Miao Heritage" 
             location="China - Guizhou" 
             description="Ethnic silver jewelry art"
             rating="4.8" 
           />
           <BrandCard 
-            image="/images/brand-lotus.jpeg" 
+            image="./images/brand-lotus.jpeg" 
             title="Lotus Gem Collective" 
             location="Southeast Asia - Vietnam" 
             description="Handcrafted gemstone designs"
@@ -71,28 +71,28 @@ export default function HomeScreen({ onNavigate }: { onNavigate: (s: string) => 
         
         <div className="grid grid-cols-2 gap-4 mb-10">
           <CommunityCard 
-            image="/images/comm-resin.jpeg" 
+            image="./images/comm-resin.jpeg" 
             title="Resin Water Drop Necklace" 
             author="Kate Berry"
             authorAvatar="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=100"
             price="¥1180" 
           />
           <CommunityCard 
-            image="/images/comm-earring.png" 
+            image="./images/comm-earring.png" 
             title="925 Sterling Silver Dainty Earring" 
             author="Annie Clark"
             authorAvatar="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=100"
             price="¥1050" 
           />
           <CommunityCard 
-            image="/images/comm-glass.jpeg" 
+            image="./images/comm-glass.jpeg" 
             title="Colorful Glass Rings - Suplais" 
             author="Karlie Kloss"
             authorAvatar="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=100"
             price="¥1350" 
           />
           <CommunityCard 
-            image="/images/comm-pearl.jpeg" 
+            image="./images/comm-pearl.jpeg" 
             title="Natural Pearl • Delicate Ocean Jewelry" 
             author="Shaw Valley Studio"
             authorAvatar="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=100"
